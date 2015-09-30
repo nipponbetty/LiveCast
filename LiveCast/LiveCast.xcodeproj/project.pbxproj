@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F30708A1BBBA7FA00F44201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3070891BBBA7FA00F44201 /* main.m */; };
+		4F30708D1BBBA7FA00F44201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30708C1BBBA7FA00F44201 /* AppDelegate.m */; };
+		4F3070901BBBA7FA00F44201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30708F1BBBA7FA00F44201 /* ViewController.m */; };
+		4F3070931BBBA7FA00F44201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3070911BBBA7FA00F44201 /* Main.storyboard */; };
+		4F3070951BBBA7FA00F44201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3070941BBBA7FA00F44201 /* Assets.xcassets */; };
+		4F3070981BBBA7FA00F44201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3070961BBBA7FA00F44201 /* LaunchScreen.storyboard */; };
+		4F3070A31BBBA7FA00F44201 /* LiveCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3070A21BBBA7FA00F44201 /* LiveCastTests.m */; };
+		4F3070AE1BBBA7FA00F44201 /* LiveCastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3070AD1BBBA7FA00F44201 /* LiveCastUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F30709F1BBBA7FA00F44201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F30707D1BBBA7F900F44201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3070841BBBA7F900F44201;
+			remoteInfo = LiveCast;
+		};
+		4F3070AA1BBBA7FA00F44201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F30707D1BBBA7F900F44201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3070841BBBA7F900F44201;
+			remoteInfo = LiveCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F3070851BBBA7F900F44201 /* LiveCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3070891BBBA7FA00F44201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F30708B1BBBA7FA00F44201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F30708C1BBBA7FA00F44201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F30708E1BBBA7FA00F44201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F30708F1BBBA7FA00F44201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F3070921BBBA7FA00F44201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F3070941BBBA7FA00F44201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F3070971BBBA7FA00F44201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F3070991BBBA7FA00F44201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F30709E1BBBA7FA00F44201 /* LiveCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3070A21BBBA7FA00F44201 /* LiveCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCastTests.m; sourceTree = "<group>"; };
+		4F3070A41BBBA7FA00F44201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3070A91BBBA7FA00F44201 /* LiveCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3070AD1BBBA7FA00F44201 /* LiveCastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCastUITests.m; sourceTree = "<group>"; };
+		4F3070AF1BBBA7FA00F44201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3070821BBBA7F900F44201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F30709B1BBBA7FA00F44201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3070A61BBBA7FA00F44201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F30707C1BBBA7F900F44201 = {
+			isa = PBXGroup;
+			children = (
+				4F3070871BBBA7F900F44201 /* LiveCast */,
+				4F3070A11BBBA7FA00F44201 /* LiveCastTests */,
+				4F3070AC1BBBA7FA00F44201 /* LiveCastUITests */,
+				4F3070861BBBA7F900F44201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3070861BBBA7F900F44201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3070851BBBA7F900F44201 /* LiveCast.app */,
+				4F30709E1BBBA7FA00F44201 /* LiveCastTests.xctest */,
+				4F3070A91BBBA7FA00F44201 /* LiveCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3070871BBBA7F900F44201 /* LiveCast */ = {
+			isa = PBXGroup;
+			children = (
+				4F30708B1BBBA7FA00F44201 /* AppDelegate.h */,
+				4F30708C1BBBA7FA00F44201 /* AppDelegate.m */,
+				4F30708E1BBBA7FA00F44201 /* ViewController.h */,
+				4F30708F1BBBA7FA00F44201 /* ViewController.m */,
+				4F3070911BBBA7FA00F44201 /* Main.storyboard */,
+				4F3070941BBBA7FA00F44201 /* Assets.xcassets */,
+				4F3070961BBBA7FA00F44201 /* LaunchScreen.storyboard */,
+				4F3070991BBBA7FA00F44201 /* Info.plist */,
+				4F3070881BBBA7F900F44201 /* Supporting Files */,
+			);
+			path = LiveCast;
+			sourceTree = "<group>";
+		};
+		4F3070881BBBA7F900F44201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F3070891BBBA7FA00F44201 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F3070A11BBBA7FA00F44201 /* LiveCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3070A21BBBA7FA00F44201 /* LiveCastTests.m */,
+				4F3070A41BBBA7FA00F44201 /* Info.plist */,
+			);
+			path = LiveCastTests;
+			sourceTree = "<group>";
+		};
+		4F3070AC1BBBA7FA00F44201 /* LiveCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3070AD1BBBA7FA00F44201 /* LiveCastUITests.m */,
+				4F3070AF1BBBA7FA00F44201 /* Info.plist */,
+			);
+			path = LiveCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3070841BBBA7F900F44201 /* LiveCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3070B21BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCast" */;
+			buildPhases = (
+				4F3070811BBBA7F900F44201 /* Sources */,
+				4F3070821BBBA7F900F44201 /* Frameworks */,
+				4F3070831BBBA7F900F44201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveCast;
+			productName = LiveCast;
+			productReference = 4F3070851BBBA7F900F44201 /* LiveCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F30709D1BBBA7FA00F44201 /* LiveCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3070B51BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCastTests" */;
+			buildPhases = (
+				4F30709A1BBBA7FA00F44201 /* Sources */,
+				4F30709B1BBBA7FA00F44201 /* Frameworks */,
+				4F30709C1BBBA7FA00F44201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3070A01BBBA7FA00F44201 /* PBXTargetDependency */,
+			);
+			name = LiveCastTests;
+			productName = LiveCastTests;
+			productReference = 4F30709E1BBBA7FA00F44201 /* LiveCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F3070A81BBBA7FA00F44201 /* LiveCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3070B81BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCastUITests" */;
+			buildPhases = (
+				4F3070A51BBBA7FA00F44201 /* Sources */,
+				4F3070A61BBBA7FA00F44201 /* Frameworks */,
+				4F3070A71BBBA7FA00F44201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3070AB1BBBA7FA00F44201 /* PBXTargetDependency */,
+			);
+			name = LiveCastUITests;
+			productName = LiveCastUITests;
+			productReference = 4F3070A91BBBA7FA00F44201 /* LiveCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F30707D1BBBA7F900F44201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LinePlus;
+				TargetAttributes = {
+					4F3070841BBBA7F900F44201 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4F30709D1BBBA7FA00F44201 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4F3070841BBBA7F900F44201;
+					};
+					4F3070A81BBBA7FA00F44201 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4F3070841BBBA7F900F44201;
+					};
+				};
+			};
+			buildConfigurationList = 4F3070801BBBA7F900F44201 /* Build configuration list for PBXProject "LiveCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F30707C1BBBA7F900F44201;
+			productRefGroup = 4F3070861BBBA7F900F44201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3070841BBBA7F900F44201 /* LiveCast */,
+				4F30709D1BBBA7FA00F44201 /* LiveCastTests */,
+				4F3070A81BBBA7FA00F44201 /* LiveCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3070831BBBA7F900F44201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3070981BBBA7FA00F44201 /* LaunchScreen.storyboard in Resources */,
+				4F3070951BBBA7FA00F44201 /* Assets.xcassets in Resources */,
+				4F3070931BBBA7FA00F44201 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F30709C1BBBA7FA00F44201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3070A71BBBA7FA00F44201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3070811BBBA7F900F44201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3070901BBBA7FA00F44201 /* ViewController.m in Sources */,
+				4F30708D1BBBA7FA00F44201 /* AppDelegate.m in Sources */,
+				4F30708A1BBBA7FA00F44201 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F30709A1BBBA7FA00F44201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3070A31BBBA7FA00F44201 /* LiveCastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3070A51BBBA7FA00F44201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3070AE1BBBA7FA00F44201 /* LiveCastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F3070A01BBBA7FA00F44201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3070841BBBA7F900F44201 /* LiveCast */;
+			targetProxy = 4F30709F1BBBA7FA00F44201 /* PBXContainerItemProxy */;
+		};
+		4F3070AB1BBBA7FA00F44201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3070841BBBA7F900F44201 /* LiveCast */;
+			targetProxy = 4F3070AA1BBBA7FA00F44201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F3070911BBBA7FA00F44201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3070921BBBA7FA00F44201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F3070961BBBA7FA00F44201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3070971BBBA7FA00F44201 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F3070B01BBBA7FA00F44201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F3070B11BBBA7FA00F44201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F3070B31BBBA7FA00F44201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F3070B41BBBA7FA00F44201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F3070B61BBBA7FA00F44201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCast.app/LiveCast";
+			};
+			name = Debug;
+		};
+		4F3070B71BBBA7FA00F44201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCast.app/LiveCast";
+			};
+			name = Release;
+		};
+		4F3070B91BBBA7FA00F44201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveCast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F3070BA1BBBA7FA00F44201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LiveCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveCast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3070801BBBA7F900F44201 /* Build configuration list for PBXProject "LiveCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3070B01BBBA7FA00F44201 /* Debug */,
+				4F3070B11BBBA7FA00F44201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3070B21BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3070B31BBBA7FA00F44201 /* Debug */,
+				4F3070B41BBBA7FA00F44201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F3070B51BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3070B61BBBA7FA00F44201 /* Debug */,
+				4F3070B71BBBA7FA00F44201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F3070B81BBBA7FA00F44201 /* Build configuration list for PBXNativeTarget "LiveCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3070B91BBBA7FA00F44201 /* Debug */,
+				4F3070BA1BBBA7FA00F44201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F30707D1BBBA7F900F44201 /* Project object */;
+}
